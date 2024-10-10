@@ -1,0 +1,10 @@
+.marketing{
+    padding-bottom: 0;
+}
+
+@media (max-width:840px) {
+    .marketing{
+        padding: 8.33vw 8.33vw;
+        padding-bottom: 0;
+    }
+}

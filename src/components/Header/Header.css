@@ -1,0 +1,88 @@
+header{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 0 30px;
+    background-color: white;
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 2;
+}
+
+.Logo{
+    display: flex;
+    gap: 15px;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: .8em;
+}
+
+
+
+nav{
+    display: flex;
+}
+
+#navbar
+{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+#navbar li a
+{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease-in-out;
+}
+
+#navbar li a:hover{
+    color: rgba(212, 120, 222, 1);
+}
+
+i svg{
+    fill: black;
+}
+
+#mobile{
+    display: none;
+}
+
+@media screen and (max-width:767px){
+    #navbar
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: fixed;
+        top: 55px;
+        right: -150%;
+        transition: .3s ease-in-out;
+        margin-right: 0;
+        background-color: white;
+        z-index: 2;
+        padding: 30px 0;
+    }
+
+    #navbar.active{
+        right: 0;
+        position: fixed;
+    }
+
+    #mobile{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        transition: .3s ease-in-out;
+        z-index: 3;
+    }
+}

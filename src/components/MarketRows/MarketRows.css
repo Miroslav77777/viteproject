@@ -1,0 +1,53 @@
+.Row{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: rgba(212, 120, 222, 0.07);
+}
+
+.row-item{
+    display: flex;
+    border-top: 1px solid rgba(212, 120, 222, 1);
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row-item h1{
+    width: 40%;
+    font-size: 1.2vw;
+    text-align: left;
+    font-family: Manrope;
+}
+
+.explain{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+}
+
+.explain h1{
+    width: 100%;
+    font-size: 1vw;
+    font-weight: 600;
+    padding-top: 5px;
+    font-family: Manrope;
+}
+
+.explain p{
+    font-family: Manrope;
+    font-size: 1vw;
+}
+
+@media (max-width:840px) {
+    .Row{
+        padding: 8.33vw 8.33vw;
+        gap: 6vw;
+    }
+    .row-item{
+        flex-direction: column;
+    }
+    .row-item h1{
+        text-align: left;
+    }
+}
