@@ -1,6 +1,6 @@
 import "./Header.css"
 import { Component } from "react"
-import Logo from "../../assets/Logo.svg"
+import Logo from "../../assets/Logo.png"
 import Call from "../../assets/Call.svg"
 import Menu from "../../assets/Menu.svg"
 import Close from "../../assets/Close.svg"
@@ -16,7 +16,7 @@ export default class Header extends Component{
             <header>
             <a href="#" className="Logo">
                 <img src={Logo} alt="лого" />
-                <h1>ERSAG CLUB</h1>
+                <h1>Клуб красоты и здоровья</h1>
             </a>
             <nav>
                 <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>

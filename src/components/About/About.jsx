@@ -16,7 +16,12 @@ export default function About(){
                         <button>Подробнее</button>
                     </div>
                 </div>
-                <img className="ersag" src={Ersag} alt="Woman with flowers" />
+                <div className="inner-section">
+                    <div className="image-container">
+                    <div className="frame"></div>
+                    <img src={Ersag} alt="Woman with flowers" />
+                    </div>
+                </div>
             </section>
         </>
     )

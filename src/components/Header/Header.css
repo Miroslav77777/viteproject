@@ -1,3 +1,5 @@
+
+
 header{
     display: flex;
     gap: 30px;
@@ -8,19 +10,34 @@ header{
     box-sizing: border-box;
     width: 100%;
     z-index: 2;
+    height: 90px;
 }
 
 .Logo{
     display: flex;
-    gap: 15px;
+    flex-direction: column;
     text-decoration: none;
     color: black;
     align-items: center;
     text-align: center;
     justify-content: center;
-    font-size: .8em;
+    margin-left: 7vw;
 }
 
+.Logo img{
+    width: 150px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(227, 113, 217);
+}
+
+.Logo h1{
+    font-size: 23px;
+    font-weight: 800;
+    margin: 0;
+    color: rgb(227, 113, 217);
+    font-family: Manrope;
+    font-size: 12px;
+}
 
 
 nav{
