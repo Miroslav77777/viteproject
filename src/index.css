@@ -25,3 +25,7 @@
 body{
   margin: 0 0;
 }
+
+ul{
+  padding-inline-start: 0;
+}
