@@ -14,14 +14,14 @@ export default class Header extends Component{
         const { clicked } = this.state;
         return(
             <header>
-            <a href="#" className="Logo">
+            <a href="/" className="Logo">
                 <img src={Logo} alt="лого" />
                 <h1>Клуб красоты и здоровья</h1>
             </a>
             <nav>
                 <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#">О нас</a></li>
+                    <li><a href="/">Главная</a></li>
+                    <li><a href="./about">О нас</a></li>
                     <li><a href="#">Каталог</a></li>
                     <li><a href="#">Контакты</a></li>
                 </ul>
