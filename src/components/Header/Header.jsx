@@ -16,7 +16,6 @@ export default class Header extends Component{
             <header>
             <a href="/" className="Logo">
                 <img src={Logo} alt="лого" />
-                <h1>Клуб красоты и здоровья</h1>
             </a>
             <nav>
                 <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>

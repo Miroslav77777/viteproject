@@ -7,6 +7,10 @@ export default function Welcome(){
         <>
             <section>
                 <div className="info">
+                    <div className="club">
+                        <h1>ERSAG CLUB</h1>
+                        <p>Клуб красоты и здоровья</p>
+                    </div>
                     <div className="annotation">
                         <img src={Attention} alt="" />
                         <p>САЙТ ПАРТНЕРА КОМПАНИИ ERSAG</p>

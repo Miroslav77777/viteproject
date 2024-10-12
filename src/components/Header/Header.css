@@ -26,17 +26,7 @@ header{
 
 .Logo img{
     width: 150px;
-    padding-bottom: 5px;
-    border-bottom: 2px solid rgb(227, 113, 217);
-}
-
-.Logo h1{
-    font-size: 23px;
-    font-weight: 800;
-    margin: 0;
-    color: rgb(227, 113, 217);
-    font-family: Manrope;
-    font-size: 12px;
+    padding-bottom: 10px;
 }
 
 

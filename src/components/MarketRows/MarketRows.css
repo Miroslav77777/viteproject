@@ -49,5 +49,12 @@
     }
     .row-item h1{
         text-align: left;
+        font-size: 3.60vw;
+    }
+    .explain h1{
+        font-size: 2vw;
+    }
+    .explain p{
+        font-size: 1.8vw;
     }
 }
