@@ -39,7 +39,7 @@
     font-size: 1vw;
 }
 
-@media (max-width:840px) {
+@media screen and (max-width:767px) {
     .Row{
         padding: 8.33vw 8.33vw;
         gap: 6vw;
