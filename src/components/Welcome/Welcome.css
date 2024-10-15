@@ -159,6 +159,7 @@ section{
     section
     {
         padding: calc(8.33vw + 73px) 8.33vw;
+        padding-top: calc(8.33vw + 100px);
     }
     .main-info h1
     {
