@@ -31,11 +31,13 @@ section{
 }
 
 .club h1{
-    font-size: 4vw;
+    font-size: 2.8vw;
+    font-weight: 400;
 }
 
 .club p{
-    font-size: 1.9vw;
+    font-size: 3vw;
+    font-weight: 600;
 }
 
 .main-info
