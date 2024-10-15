@@ -1,0 +1,114 @@
+[
+    {
+        "code": "6042",
+        "name": "База под макияж",
+        "quantity": "50 мл",
+        "price_no_discount": "4350,00 руб.",
+        "price_discount": "3480,00 руб.",
+        "score": "2,677"
+    },
+    {
+        "code": "6029",
+        "name": "Тени для век",
+        "quantity": "1 шт",
+        "price_no_discount": "2905,54 руб.",
+        "price_discount": "2324,44 руб.",
+        "score": "1,788"
+    },
+    {
+        "code": "264",
+        "name": "Карандаш для глаз (чёрный)",
+        "quantity": "1 шт",
+        "price_no_discount": "1087,49 руб.",
+        "price_discount": "869,99 руб.",
+        "score": "0,791"
+    },
+    {
+        "code": "269",
+        "name": "Карандаш для глаз (синий)",
+        "quantity": "1 шт",
+        "price_no_discount": "1087,49 руб.",
+        "price_discount": "869,99 руб.",
+        "score": "0,791"
+    },
+    {
+        "code": "265",
+        "name": "Карандаш для глаз (зелёный)",
+        "quantity": "1 шт",
+        "price_no_discount": "1087,49 руб.",
+        "price_discount": "869,99 руб.",
+        "score": "0,791"
+    },
+    {
+        "code": "6035",
+        "name": "Жидкая губная помада (R-1-6)",
+        "quantity": "6 мл",
+        "price_no_discount": "1303,50 руб.",
+        "price_discount": "1042,80 руб.",
+        "score": "0,802"
+    },
+    {
+        "code": "234",
+        "name": "Увлажняющий бальзам для губ",
+        "quantity": "5 мл",
+        "price_no_discount": "641,84 руб.",
+        "price_discount": "513,47 руб.",
+        "score": "0,395"
+    },
+    {
+        "code": "320",
+        "name": "BB Крем (светлый)",
+        "quantity": "50 мл",
+        "price_no_discount": "1694,96 руб.",
+        "price_discount": "1355.97 руб.",
+        "score": "1,233"
+    },
+    {
+        "code": "321",
+        "name": "BB Крем (тёмный)",
+        "quantity": "50 мл",
+        "price_no_discount": "1694,96 руб.",
+        "price_discount": "1355.97 руб.",
+        "score": "1,233"
+    },
+    {
+        "code": "6004",
+        "name": "CC Крем (светлый)",
+        "quantity": "50 мл",
+        "price_no_discount": "1368,13 руб.",
+        "price_discount": "1094,50 руб.",
+        "score": "0,995"
+    },
+    {
+        "code": "6005",
+        "name": "CC Крем (тёмный)",
+        "quantity": "50 мл",
+        "price_no_discount": "1368,13 руб.",
+        "price_discount": "1094,50 руб.",
+        "score": "0,995"
+    },
+    {
+        "code": "6030",
+        "name": "Консилер (тон 1-5)",
+        "quantity": "6 мл",
+        "price_no_discount": "1223,75 руб.",
+        "price_discount": "979,00 руб.",
+        "score": "0,890"
+    },
+    {
+        "code": "6025",
+        "name": "Румяна терракотовые (201-204)",
+        "quantity": "15 гр",
+        "price_no_discount": "2752,63 руб.",
+        "price_discount": "2202,10 руб.",
+        "score": "1,694"
+    },
+    {
+        "code": "6024",
+        "name": "Мицеллярная вода для удаления макияжа",
+        "quantity": "200 мл",
+        "price_no_discount": "797,86 руб.",
+        "price_discount": "638,29 руб.",
+        "score": "0,580"
+    }
+]

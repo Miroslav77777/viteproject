@@ -1,0 +1,170 @@
+[
+    {
+        "code": "412",
+        "name": "Сумка с пробниками парфюма (бальная)",
+        "quantity": "3 мл",
+        "price_no_discount": "4800,00 руб.",
+        "price_discount": "3840,00 руб.",
+        "score": "2,954"
+    },
+    {
+        "code": "589",
+        "name": "Сумка с пробниками парфюма",
+        "quantity": "15 мл",
+        "price_no_discount": "14574,21 руб.",
+        "price_discount": "9716,14 руб.",
+        "score": "8,969"
+    },
+    {
+        "code": "5011",
+        "name": "Женские духи Амира",
+        "quantity": "100 мл",
+        "price_no_discount": "3773,00 руб.",
+        "price_discount": "3018,40 руб.",
+        "score": "2,322"
+    },
+    {
+        "code": "5010",
+        "name": "Женские духи Эсила",
+        "quantity": "100 мл",
+        "price_no_discount": "4393,81 руб.",
+        "price_discount": "3515,05 руб.",
+        "score": "2,704"
+    },
+    {
+        "code": "5012",
+        "name": "Женские духи Фрезия",
+        "quantity": "100 мл",
+        "price_no_discount": "4079,98 руб.",
+        "price_discount": "3263,98 руб.",
+        "score": "2,511"
+    },
+    {
+        "code": "5013",
+        "name": "Женский парфюм Ахенк",
+        "quantity": "100 мл",
+        "price_no_discount": "4079,98 руб.",
+        "price_discount": "3263,98 руб.",
+        "score": "2,511"
+    },
+    {
+        "code": "5016",
+        "name": "Женские духи Рея",
+        "quantity": "100 мл",
+        "price_no_discount": "3214,25 руб.",
+        "price_discount": "2571,40 руб.",
+        "score": "1,978"
+    },
+    {
+        "code": "5014",
+        "name": "Женский парфюм Гардения",
+        "quantity": "100 мл",
+        "price_no_discount": "4245,31 руб.",
+        "price_discount": "3396,25 руб.",
+        "score": "2,613"
+    },
+    {
+        "code": "5003",
+        "name": "Женские духи Лилия",
+        "quantity": "100 мл",
+        "price_no_discount": "3709,94 руб.",
+        "price_discount": "2967,95 руб.",
+        "score": "2,283"
+    },
+    {
+        "code": "5007",
+        "name": "Женские духи Лавинья",
+        "quantity": "100 мл",
+        "price_no_discount": "3709,94 руб.",
+        "price_discount": "2967,95 руб.",
+        "score": "2,283"
+    },
+    {
+        "code": "5001",
+        "name": "Женский парфюм Хризантема",
+        "quantity": "100 мл",
+        "price_no_discount": "3709,94 руб.",
+        "price_discount": "2967,95 руб.",
+        "score": "2,283"
+    },
+    {
+        "code": "5015",
+        "name": "Женский парфюм Ачелия",
+        "quantity": "100 мл",
+        "price_no_discount": "5200,00 руб.",
+        "price_discount": "4160,00 руб.",
+        "score": "3,200"
+    },
+    {
+        "code": "1004",
+        "name": "Мужской парфюм Бора",
+        "quantity": "100 мл",
+        "price_no_discount": "5192,69 руб.",
+        "price_discount": "4154,15 руб.",
+        "score": "3,196"
+    },
+    {
+        "code": "1009",
+        "name": "Мужской парфюм Амир",
+        "quantity": "100 мл",
+        "price_no_discount": "3462,60 руб.",
+        "price_discount": "2770,08 руб.",
+        "score": "2,131"
+    },
+    {
+        "code": "1008",
+        "name": "Мужской парфюм БКР",
+        "quantity": "100 мл",
+        "price_no_discount": "4143,81 руб.",
+        "price_discount": "3315,05 руб.",
+        "score": "2,550"
+    },
+    {
+        "code": "1005",
+        "name": "Мужской парфюм Лодос",
+        "quantity": "100 мл",
+        "price_no_discount": "3462,60 руб.",
+        "price_discount": "2770,08 руб.",
+        "score": "2,131"
+    },
+    {
+        "code": "1007",
+        "name": "Мужской парфюм Океан",
+        "quantity": "100 мл",
+        "price_no_discount": "3462,60 руб.",
+        "price_discount": "2770,08 руб.",
+        "score": "2,131"
+    },
+    {
+        "code": "1006",
+        "name": "Мужской парфюм Мороз",
+        "quantity": "100 мл",
+        "price_no_discount": "3462,60 руб.",
+        "price_discount": "2770,08 руб.",
+        "score": "2,131"
+    },
+    {
+        "code": "1003",
+        "name": "Мужской парфюм Ветер",
+        "quantity": "100 мл",
+        "price_no_discount": "3462,60 руб.",
+        "price_discount": "2770,08 руб.",
+        "score": "2,131"
+    },
+    {
+        "code": "1002",
+        "name": "Мужской парфюм Север",
+        "quantity": "100 мл",
+        "price_no_discount": "3462,60 руб.",
+        "price_discount": "2770,08 руб.",
+        "score": "2,131"
+    },
+    {
+        "code": "1001",
+        "name": "Мужской парфюм Пойраз",
+        "quantity": "100 мл",
+        "price_no_discount": "3462,60 руб.",
+        "price_discount": "2770,08 руб.",
+        "score": "2,131"
+    }
+]

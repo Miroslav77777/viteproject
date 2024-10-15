@@ -1,0 +1,370 @@
+[
+    {
+        "code": "224",
+        "name": "Массажный крем clean ball",
+        "quantity": "100 мл",
+        "price_no_discount": "1136,92 руб.",
+        "price_discount": "909,54 руб.",
+        "score": "0,829"
+    },
+    {
+        "code": "112",
+        "name": "Массажный крем clean ball",
+        "quantity": "200 мл",
+        "price_no_discount": "1750,45 руб.",
+        "price_discount": "1400,36 руб.",
+        "score": "1,273"
+    },
+    {
+        "code": "387",
+        "name": "Ароматическое массажное масло для тела",
+        "quantity": "100 мл",
+        "price_no_discount": "2191,61 руб.",
+        "price_discount": "1753,29 руб.",
+        "score": "1,343"
+    },
+    {
+        "code": "334",
+        "name": "Крем с экстрактом ивы",
+        "quantity": "150 мл",
+        "price_no_discount": "1925,49 руб.",
+        "price_discount": "1540,39 руб.",
+        "score": "1,185"
+    },
+    {
+        "code": "397",
+        "name": "Масло семян рыжика",
+        "quantity": "30 мл",
+        "price_no_discount": "1040,00 руб.",
+        "price_discount": "832,00 руб.",
+        "score": "0,756"
+    },
+    {
+        "code": "454",
+        "name": "Кунжутное масло",
+        "quantity": "30 мл",
+        "price_no_discount": "825,00 руб.",
+        "price_discount": "660,00 руб.",
+        "score": "0,508"
+    },
+    {
+        "code": "477",
+        "name": "Сыворотка с коллагеном",
+        "quantity": "30мл",
+        "price_no_discount": "2720,00 руб.",
+        "price_discount": "2176,00 руб.",
+        "score": "1,674"
+    },
+    {
+        "code": "389",
+        "name": "Сыворотка для лица с гиалуроновой кислотой",
+        "quantity": "30 мл",
+        "price_no_discount": "2277,00 руб.",
+        "price_discount": "1821,60 руб.",
+        "score": "1,401"
+    },
+    {
+        "code": "396",
+        "name": "Сыворотка с витамином C",
+        "quantity": "30 мл",
+        "price_no_discount": "2182,13 руб.",
+        "price_discount": "1745,70 руб.",
+        "score": "1,343"
+    },
+    {
+        "code": "386",
+        "name": "Масло для ухода за кожей лица 4в1",
+        "quantity": "50 мл",
+        "price_no_discount": "1819,13 руб.",
+        "price_discount": "1,455,30 руб.",
+        "score": "1,232"
+    },
+    {
+        "code": "394",
+        "name": "Крем с экстрактом лаванды",
+        "quantity": "100 мл",
+        "price_no_discount": "1562,00 руб.",
+        "price_discount": "1249,60 руб.",
+        "score": "1,136"
+    },
+    {
+        "code": "395",
+        "name": "Крем с экстрактом эвкалипта",
+        "quantity": "100 мл",
+        "price_no_discount": "1562,00 руб.",
+        "price_discount": "1249,60 руб.",
+        "score": "1,136"
+    },
+    {
+        "code": "378",
+        "name": "Крем с экстрактом сосновой коры",
+        "quantity": "100 мл",
+        "price_no_discount": "1562,00 руб.",
+        "price_discount": "1249,60 руб.",
+        "score": "1,136"
+    },
+    {
+        "code": "393",
+        "name": "Крем с экстрактом тимьяна",
+        "quantity": "100 мл",
+        "price_no_discount": "1562,00 руб.",
+        "price_discount": "1249,60 руб.",
+        "score": "1,136"
+    },
+    {
+        "code": "270",
+        "name": "Крем с экстрактом зверобоя",
+        "quantity": "100 мл",
+        "price_no_discount": "1496,00 руб.",
+        "price_discount": "1196,80 руб.",
+        "score": "1,088"
+    },
+    {
+        "code": "260",
+        "name": "Крем с маслом чёрного тмина",
+        "quantity": "100 мл",
+        "price_no_discount": "1651,65 руб.",
+        "price_discount": "1321,32 руб.",
+        "score": "1,201"
+    },
+    {
+        "code": "287",
+        "name": "Золотая маска",
+        "quantity": "150 мл",
+        "price_no_discount": "1874,90 руб.",
+        "price_discount": "1499,92 руб.",
+        "score": "1,154"
+    },
+    {
+        "code": "288",
+        "name": "Жемчужная маска",
+        "quantity": "150 мл",
+        "price_no_discount": "1874,90 руб.",
+        "price_discount": "1499,92 руб.",
+        "score": "1,154"
+    },
+    {
+        "code": "231",
+        "name": "Крем по уходу за зрелой кожей",
+        "quantity": "100 мл",
+        "price_no_discount": "2849,96 руб.",
+        "price_discount": "2279,97 руб.",
+        "score": "2,073"
+    },
+    {
+        "code": "564",
+        "name": "Крем с ягодами годжи",
+        "quantity": "50 мл",
+        "price_no_discount": "2259,68 руб.",
+        "price_discount": "1807,74 руб.",
+        "score": "1,643"
+    },
+    {
+        "code": "230",
+        "name": "Лосьон для ухода вокруг глаз",
+        "quantity": "30 мл",
+        "price_no_discount": "2191,20 руб.",
+        "price_discount": "1752,96 руб.",
+        "score": "1,594"
+    },
+    {
+        "code": "408",
+        "name": "Пилинг",
+        "quantity": "100 мл",
+        "price_no_discount": "1650,00 руб.",
+        "price_discount": "1320,00 руб.",
+        "score": "1,015"
+    },
+    {
+        "code": "274",
+        "name": "Отбеливающий крем для лица",
+        "quantity": "50 мл",
+        "price_no_discount": "2156,96 руб.",
+        "price_discount": "1725,57 руб.",
+        "score": "1,569"
+    },
+    {
+        "code": "141",
+        "name": "Лосьон для дневного ухода",
+        "quantity": "100 мл",
+        "price_no_discount": "1496,00 руб.",
+        "price_discount": "1196,80 руб.",
+        "score": "1,088"
+    },
+    {
+        "code": "142",
+        "name": "Лосьон для ночного ухода",
+        "quantity": "100 мл",
+        "price_no_discount": "1496,00 руб.",
+        "price_discount": "1196,80 руб.",
+        "score": "1,088"
+    },
+    {
+        "code": "140",
+        "name": "Лосьон против угрей",
+        "quantity": "200 мл",
+        "price_no_discount": "1423,27 руб.",
+        "price_discount": "1138,61 руб.",
+        "score": "1,035"
+    },
+    {
+        "code": "206",
+        "name": "Увлажняющий лосьон с маслом арганы spf 15",
+        "quantity": "100 мл",
+        "price_no_discount": "1826,00 руб.",
+        "price_discount": "1460,80 руб.",
+        "score": "1,328"
+    },
+    {
+        "code": "226",
+        "name": "Гель для умывания лица",
+        "quantity": "200 мл",
+        "price_no_discount": "1348,02 руб.",
+        "price_discount": "1078,41 руб.",
+        "score": "0,830"
+    },
+    {
+        "code": "164",
+        "name": "Молочко для очищения лица",
+        "quantity": "200 мл",
+        "price_no_discount": "1038,06 руб.",
+        "price_discount": "830,45 руб.",
+        "score": "0,755"
+    },
+    {
+        "code": "166",
+        "name": "Тоник для нормальной и жирной кожи",
+        "quantity": "200 мл",
+        "price_no_discount": "1038,06 руб.",
+        "price_discount": "830,45 руб.",
+        "score": "0,755"
+    },
+    {
+        "code": "165",
+        "name": "Тоник для сухой кожи",
+        "quantity": "200 мл",
+        "price_no_discount": "1038,06 руб.",
+        "price_discount": "830,45 руб.",
+        "score": "0,755"
+    },
+    {
+        "code": "271",
+        "name": "Парфюмерный крем для тела и рук амира",
+        "quantity": "100 мл",
+        "price_no_discount": "1014,75 руб.",
+        "price_discount": "811,80 руб.",
+        "score": "0,738"
+    },
+    {
+        "code": "237",
+        "name": "Крем для тела",
+        "quantity": "200 мл",
+        "price_no_discount": "1138,01 руб.",
+        "price_discount": "910,41 руб.",
+        "score": "0,700"
+    },
+    {
+        "code": "138",
+        "name": "Лосьон для тела",
+        "quantity": "200 мл",
+        "price_no_discount": "892,38 руб.",
+        "price_discount": "713,90 руб.",
+        "score": "0,649"
+    },
+    {
+        "code": "225",
+        "name": "Лосьон для рук",
+        "quantity": "100 мл",
+        "price_no_discount": "726,00 руб.",
+        "price_discount": "580,80 руб.",
+        "score": "0,528"
+    },
+    {
+        "code": "139",
+        "name": "Лосьон для рук",
+        "quantity": "200 мл",
+        "price_no_discount": "963,47 руб.",
+        "price_discount": "770,77 руб.",
+        "score": "0,701"
+    },
+    {
+        "code": "353",
+        "name": "Масло лаванды",
+        "quantity": "20 мл",
+        "price_no_discount": "507,30 руб.",
+        "price_discount": "405,84 руб.",
+        "score": "0,312"
+    },
+    {
+        "code": "392",
+        "name": "Лосьон для уменьшения нательных волосков",
+        "quantity": "200 мл",
+        "price_no_discount": "2351,64 руб.",
+        "price_discount": "1881,31 руб.",
+        "score": "1,447"
+    },
+    {
+        "code": "381",
+        "name": "Масло из вишнёвых косточек",
+        "quantity": "30 мл",
+        "price_no_discount": "947,10 руб.",
+        "price_discount": "757,68 руб.",
+        "score": "0,689"
+    },
+    {
+        "code": "143",
+        "name": "Антицеллюлитный лосьон",
+        "quantity": "200 мл",
+        "price_no_discount": "1896,68 руб.",
+        "price_discount": "1517,34 руб.",
+        "score": "1,379"
+    },
+    {
+        "code": "167",
+        "name": "Крем для ног",
+        "quantity": "200 мл",
+        "price_no_discount": "1384,56 руб.",
+        "price_discount": "1107,65 руб.",
+        "score": "1,007"
+    },
+    {
+        "code": "169",
+        "name": "Спрей для ног",
+        "quantity": "125 мл",
+        "price_no_discount": "811,25 руб.",
+        "price_discount": "649,00 руб.",
+        "score": "0,590"
+    },
+    {
+        "code": "565",
+        "name": "Солнезащитный крем 50 spf",
+        "quantity": "100 мл",
+        "price_no_discount": "2444,75 руб.",
+        "price_discount": "1955,80 руб.",
+        "score": "1,504"
+    },
+    {
+        "code": "238",
+        "name": "Масло для загара",
+        "quantity": "200 мл",
+        "price_no_discount": "2885,10 руб.",
+        "price_discount": "2308,08 руб.",
+        "score": "1,775"
+    },
+    {
+        "code": "263",
+        "name": "Солнцезащитное молочко spf 40",
+        "quantity": "200 мл",
+        "price_no_discount": "2611,79 руб.",
+        "price_discount": "2089,43 руб.",
+        "score": "1,607"
+    },
+    {
+        "code": "261",
+        "name": "Бальзам после бритья",
+        "quantity": "150 мл",
+        "price_no_discount": "958,65 руб.",
+        "price_discount": "766,92 руб.",
+        "score": "0,697"
+    }
+]
