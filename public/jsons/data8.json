@@ -1,0 +1,42 @@
+[
+    {
+        "code": "204",
+        "name": "Детская зубная паста",
+        "quantity": "75 мл",
+        "price_no_discount": "735,63 руб.",
+        "price_discount": "588,50 руб.",
+        "score": "0,535"
+    },
+    {
+        "code": "163",
+        "name": "Детский шампунь",
+        "quantity": "30 мл",
+        "price_no_discount": "1206,98 руб.",
+        "price_discount": "965,58 руб.",
+        "score": "0,878"
+    },
+    {
+        "code": "258",
+        "name": "Детский гель для душа",
+        "quantity": "300 мл",
+        "price_no_discount": "973,50 руб.",
+        "price_discount": "778,80 руб.",
+        "score": "0,708"
+    },
+    {
+        "code": "186",
+        "name": "Детское масло для массажа",
+        "quantity": "200 мл",
+        "price_no_discount": "1482,95 руб.",
+        "price_discount": "1186,36 руб.",
+        "score": "1,079"
+    },
+    {
+        "code": "207",
+        "name": "Влажные салфетки",
+        "quantity": "85 шт",
+        "price_no_discount": "558,12 руб.",
+        "price_discount": "446,50 руб.",
+        "score": "0,406"
+    }
+]
