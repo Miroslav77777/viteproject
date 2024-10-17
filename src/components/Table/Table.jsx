@@ -45,32 +45,34 @@ const ProductTable = () => {
   }, []);
 
   return (
-    <div>
+    <div className='price-table'>
       {tableData.map((categoryData, categoryIndex) => (
-        <table key={categoryIndex} className="product-table">
-          <thead>
-            <tr>
-              <th>Код</th>
-              <th>{head_names[categoryIndex]}</th>
-              <th>Количество-объем</th>
-              <th>Цена без регистрации</th>
-              <th>Цена после регистрации</th>
-              <th>Балл</th>
-            </tr>
-          </thead>
-          <tbody>
-            {categoryData.map((product, productIndex) => (
-              <tr key={productIndex}>
-                <td>{product.code}</td>
-                <td>{product.name}</td>
-                <td>{product.quantity}</td>
-                <td>{product.price_no_discount}</td>
-                <td>{product.price_discount}</td>
-                <td>{product.score}</td>
+        <div className="table-container">
+          <table key={categoryIndex} className="product-table">
+            <thead>
+              <tr>
+                <th>Код</th>
+                <th>{head_names[categoryIndex]}</th>
+                <th>Количество-объем</th>
+                <th>Цена без регистрации</th>
+                <th>Цена после регистрации</th>
+                <th>Балл</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {categoryData.map((product, productIndex) => (
+                <tr key={productIndex}>
+                  <td>{product.code}</td>
+                  <td>{product.name}</td>
+                  <td>{product.quantity}</td>
+                  <td>{product.price_no_discount}</td>
+                  <td>{product.price_discount}</td>
+                  <td>{product.score}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>  
       ))}
     </div>
   );

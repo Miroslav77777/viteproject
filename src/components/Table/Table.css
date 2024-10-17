@@ -1,0 +1,43 @@
+tr{
+    color: black;
+}
+
+.price-table {
+    /* ... existing styles ... */
+    display: flex; /* Use flexbox for horizontal centering */
+    flex-direction: column; /* Stack tables vertically */
+    align-items: center; /* Center tables horizontally */
+    justify-content: center; /* Optional: Vertically center if needed */
+    padding-top: 150px;
+  }
+
+.product-table{
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+	border-collapse: collapse;
+    justify-self: center;
+    margin: 0 auto;
+    width: 70.05vw;
+}
+
+.table-container {
+    overflow-x: auto;
+    width: 70.05vw; /* Or whatever width you need */
+    margin-bottom: 40px; /* Important: Add some space between tables */
+}
+
+.product-table th{
+    border: 1px solid #dddddd;
+}
+
+.product-table td{
+    border: 1px solid #dddddd;
+	padding: 5px;
+}
+
+.product-table tbody tr:nth-child(odd){
+	background: #fff;
+}
+.product-table tbody tr:nth-child(even){
+	background: rgba(212, 120, 222, 0.07);
+}

@@ -9,7 +9,7 @@ function App() {
   const [showMain, setShowMain] = useState(true);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/viteproject/'>
       <Routes>  
       <Route path="viteproject" element={<Home/>} /> 
       <Route path="/viteproject/about" element={<AboutUs/>} /> 
