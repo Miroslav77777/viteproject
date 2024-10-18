@@ -20,8 +20,8 @@ export default class Header extends Component{
             <nav>
                 <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
                     <li><a href="./">Главная</a></li>
-                    <li><a href="./about">О нас</a></li>
-                    <li><a href="./pricelist">Прайс-лист</a></li>
+                    <li><a href="/about">О нас</a></li>
+                    <li><a href="/pricelist">Прайс-лист</a></li>
                 </ul>
                 <div id="mobile" onClick={this.handleClick}>
                     <img src={clicked ? Close:Menu} alt="" />

@@ -1,17 +1,17 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home"; // Import correctly
 import AboutUs from "./pages/AboutUs/AboutUs";
 import PriceList from "./pages/PriceList/PriceList";
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/pricelist" element={<PriceList />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

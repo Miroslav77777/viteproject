@@ -12,6 +12,19 @@ section{
     gap: calc(6.94vw + 40px);
 }
 
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Центрирование по вертикали */
+    z-index: 1000; /* Устанавливаем z-index выше других элементов */
+    background-color: rgba(0, 0, 0, 0.5); /* Добавляем бэкдроп с прозрачностью */
+  }
+
 .info{
     min-width: 40%;
     padding-top: 0;

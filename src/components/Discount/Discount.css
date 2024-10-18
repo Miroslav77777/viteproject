@@ -1,0 +1,14 @@
+.discount{
+    display: flex;
+    background-color: aquamarine;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.textlink{
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+}

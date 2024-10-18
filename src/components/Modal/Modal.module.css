@@ -1,0 +1,42 @@
+.modal{
+    position: absolute;
+    width: 42vw;
+    height: 600px;
+    z-index: 5;
+    background-color: aliceblue;
+    top: calc(50vh - 300px);
+    opacity: 0;
+    transform: translateY(20px);  /* Начальное смещение */
+    animation: modal-appear 0.3s ease-in-out forwards; /* Анимация входа */
+    left: calc(50vw - 21vw);
+}
+
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Центрирование по вертикали */
+    z-index: 1000; /* Устанавливаем z-index выше других элементов */
+    background-color: rgba(0, 0, 0, 0.5); /* Добавляем бэкдроп с прозрачностью */
+}
+  
+  .modal.hide {
+    animation: modal-disappear 0.3s ease-in-out forwards; /* Анимация выхода */
+  }
+  
+  @keyframes modal-appear {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes modal-disappear {
+    to {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  }

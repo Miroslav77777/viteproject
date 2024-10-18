@@ -1,9 +1,11 @@
 import React from 'react'
+import Discount from '../../components/Discount/Discount'
 import Header from '../../components/Header/Header'
 import Welcome from '../../components/Welcome/Welcome'
 import About from '../../components/About/About'
 import Marketing from '../../components/Marketing/Marketing'
 import MarketRows from '../../components/MarketRows/MarketRows'
+
 
 
 export default function Home() {
@@ -32,6 +34,7 @@ export default function Home() {
 
   return (
     <>
+      <Discount />
       <Header />
       <Welcome />
       <About />

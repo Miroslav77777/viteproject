@@ -1,8 +1,20 @@
 import "./Welcome.css"
 import Attention from "../../assets/Attention.svg"
 import First from "../../assets/First.png"
+import React, { useState } from 'react';
+import Backdrop from '../Backdrop/Backdrop';
+import Modal from '../Modal/Modal';
 
 export default function Welcome(){
+    const [showModal, setShowModal] = useState(false);
+
+    const handleShowModal = () => {
+      setShowModal(true);
+    };
+  
+    const handleHideModal = () => {
+       setShowModal(false); 
+    };
     return(
         <>
             <section>
@@ -19,7 +31,7 @@ export default function Welcome(){
                         <h1>Хотите стать частью волшебного мира Красоты и Здоровья Эрсаг?</h1>
                         <p>Станьте Архитектором своего Счастья!
                         <br/>Присоединяйтесь к Сообществу Эрсаг и узнайте секреты красоты и здоровья! <br/>А также улучшите своё благополучие вместе с нами!</p>
-                        <button>Записаться на мероприятие</button>
+                        <button onClick={handleShowModal}>Записаться на мероприятие</button>
                     </div>
                 </div>
                 <div className="inner-section">
@@ -29,6 +41,13 @@ export default function Welcome(){
                     </div>
                 </div>   
             </section>
+
+            {showModal && (
+            <div className="modal-container">
+                <Backdrop onClick={handleHideModal} />
+                <Modal onClose={handleHideModal} />
+            </div>
+            )}
         </>
     )
 }
