@@ -31,7 +31,7 @@ export default function Welcome(){
                         <h1>Хотите стать частью волшебного мира Красоты и Здоровья Эрсаг?</h1>
                         <p>Станьте Архитектором своего Счастья!
                         <br/>Присоединяйтесь к Сообществу Эрсаг и узнайте секреты красоты и здоровья! <br/>А также улучшите своё благополучие вместе с нами!</p>
-                        <button onClick={handleShowModal}>Записаться на мероприятие</button>
+                        <button onClick={handleShowModal}>УЗНАТЬ БОЛЬШЕ</button>
                     </div>
                 </div>
                 <div className="inner-section">

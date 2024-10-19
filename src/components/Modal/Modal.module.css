@@ -1,14 +1,32 @@
 .modal{
     position: absolute;
-    width: 42vw;
-    height: 600px;
+    width: 30vw;
+    height: 880px;
     z-index: 5;
-    background-color: aliceblue;
-    top: calc(50vh - 300px);
+    background-color: rgba(252, 245, 253, 1);
+    top: calc(50vh - 440px);
     opacity: 0;
     transform: translateY(20px);  /* Начальное смещение */
     animation: modal-appear 0.3s ease-in-out forwards; /* Анимация входа */
-    left: calc(50vw - 21vw);
+    left: calc(50vw - 15vw);
+    border-radius: 6px;
+    box-shadow: 1px 0px 18px rgba(0, 0, 0, 0.20);
+}
+
+button{
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+button img{
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .modal-container {

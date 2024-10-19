@@ -1,0 +1,45 @@
+.success{
+    color: black;
+    justify-self: center;
+    padding: 3vw;
+    text-align: center;
+}
+
+form{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 3vw;
+    padding-top: 1vw;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form input{
+    height: 60px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(212, 120, 222, 1);
+    font-size: 1vw;
+    font-family: Manrope;
+}
+
+.image{
+    width: 30vw;
+}
+
+.send{
+    border: 1px solid rgba(212, 120, 222, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    padding: 0;
+    font-size: 1vw;
+    font-family: Manrope;
+}
