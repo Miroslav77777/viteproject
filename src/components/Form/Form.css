@@ -1,3 +1,15 @@
+.correct{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct img{
+    width: 50px;
+    height: 50px;
+}
+
 .success{
     color: black;
     justify-self: center;
@@ -10,7 +22,9 @@ form{
     display: flex;
     flex-direction: column;
     padding: 3vw;
-    padding-top: 1vw;
+    padding-top: .3vw;
+    max-height: 550px;
+    
 }
 
 form div{
@@ -47,11 +61,35 @@ form input{
     align-items: center;
     text-align: center;
     height: 3vw;
-    padding: 0;
+    padding: .5vw;
     font-size: 1vw;
     font-family: Manrope;
     color: black;
     background-color: white;
+}
+
+@media (max-width: 560px){
+    form h2{
+        font-size: 18px;
+    }
+
+    form{
+        overflow: hidden;
+    }
+    form input{
+        height: 50px;
+        font-size: 16px;
+        padding-left: 15px;
+    }
+    form label{
+        font-size: 16px;
+    }
+
+    .send{
+        height: 50px;
+        font-size: 16px;
+        border-radius: 6px;
+    }
 }
 
 @media (max-width: 840px){

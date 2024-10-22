@@ -5,6 +5,7 @@ import Welcome from '../../components/Welcome/Welcome'
 import About from '../../components/About/About'
 import Marketing from '../../components/Marketing/Marketing'
 import MarketRows from '../../components/MarketRows/MarketRows'
+import Footer from '../../components/Footer/Footer'
 
 
 
@@ -44,6 +45,7 @@ export default function Home() {
         hR={rightHeaders} 
         pA={paragraphs} 
       />
+      <Footer />
     </>
   );
 }

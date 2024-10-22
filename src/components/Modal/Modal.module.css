@@ -1,17 +1,18 @@
 .modal {
-  position: absolute;
+  position: fixed;
   width: 30vw;
   /*  Высота модального окна  */
   
   z-index: 5;
   background-color: rgba(252, 245, 253, 1);
-  top: calc((50vh - 28vw)/1.83);
+  top: calc((50vh - 24.75vw)/1.83);
   opacity: 0;
   transform: translateY(20px);  /* Начальное смещение */
   animation: modal-appear 0.3s ease-in-out forwards; /* Анимация входа */
   left: calc(50vw - 15vw);
   border-radius: 6px;
   box-shadow: 1px 0px 18px rgba(0, 0, 0, 0.20);
+  max-height: 935px;
 }
 
 button{
@@ -78,6 +79,8 @@ button img{
       width: 100%; /* Занимаем всю ширину */
       height: 100%; /* Занимаем всю высоту */
       transform: none; /* Убираем transform для центрирования */
-      border-radius: 0; /* Убираем скругление углов, если необходимо */
+      border-radius: 0;
+      width: 100%;
+      overflow: hidden; /* Убираем скругление углов, если необходимо */
     }
   }

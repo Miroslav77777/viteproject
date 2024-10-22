@@ -6,9 +6,9 @@ import PriceList from "./pages/PriceList/PriceList";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/viteproject">
       <Routes>
-        <Route path="/viteproject/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/pricelist" element={<PriceList />} />
       </Routes>

@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react";
-import "./Form.css"
-import DiscountImage from '../../assets/Discount.webp';
-import Correct from '../../assets/Checkmark.svg'
 
 
 
-const ContactForm = () => {
+
+const FooterForm = () => {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [city, setCity] = useState("");
@@ -59,17 +57,13 @@ const ContactForm = () => {
   return (
     <div>
       {showSuccessMessage ? (
-        <div className="correct">
-          <img src={Correct} alt="Иконка подтверждения" width="32" height="32" />
-          <p className="success">
-            Спасибо! Данные отправлены! Мы свяжемся с вами в ближайшее время!
-          </p>
-        </div>
+        <p className="success">
+          Спасибо! Данные отправлены! Мы свяжемся с вами в ближайшее время!
+        </p>
       ) : (
         <>
-        <img src={DiscountImage} alt="" className="image" /> 
         <form onSubmit={handleSubmit}>
-          <h2>Чтобы получить скидку 20% и подарки, оставьте свои контакты!</h2>
+          <h2>Получите скидку от 20% и бесплатные подарки!</h2>
           {errorMessage && <p className="error">{errorMessage}</p>}
           <div>
             <label htmlFor="name">Имя</label>
@@ -114,4 +108,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default FooterForm;
