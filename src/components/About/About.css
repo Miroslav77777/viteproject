@@ -1,5 +1,6 @@
-.about{
+section.about{
     background-color: white;
+    padding: 8.33vw !important;
 }
 
 .main-info
@@ -54,4 +55,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width:840px){
+    section.about{
+        padding: 73px 8.33vw !important;
+        padding-top: 43px !important;
+    }
 }

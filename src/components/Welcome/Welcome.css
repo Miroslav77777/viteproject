@@ -4,7 +4,8 @@
 section{
     z-index: 0;
     background-color: rgba(212, 120, 222, 0.07);
-    padding: calc(8.33vw + 30px) 8.33vw;
+    padding: calc(8.33vw + 50px) 8.33vw;
+    padding-top: calc(8.33vw + 120px) !important;
     margin: 0;
     display:flex;
     justify-content: space-between;
@@ -170,10 +171,9 @@ section{
 }
 
 @media (max-width:840px) {
-    section
-    {
-        padding: calc(8.33vw + 73px) 8.33vw;
-        padding-top: calc(8.33vw + 100px);
+    section.welcome{
+        padding: 43px 8.33vw;
+        padding-top: calc(8.33vw + 120px) !important;
     }
     .main-info h1
     {

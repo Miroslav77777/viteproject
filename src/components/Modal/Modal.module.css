@@ -1,16 +1,17 @@
-.modal{
-    position: absolute;
-    width: 30vw;
-    height: 880px;
-    z-index: 5;
-    background-color: rgba(252, 245, 253, 1);
-    top: calc(50vh - 440px);
-    opacity: 0;
-    transform: translateY(20px);  /* Начальное смещение */
-    animation: modal-appear 0.3s ease-in-out forwards; /* Анимация входа */
-    left: calc(50vw - 15vw);
-    border-radius: 6px;
-    box-shadow: 1px 0px 18px rgba(0, 0, 0, 0.20);
+.modal {
+  position: absolute;
+  width: 30vw;
+  /*  Высота модального окна  */
+  
+  z-index: 5;
+  background-color: rgba(252, 245, 253, 1);
+  top: calc((50vh - 28vw)/1.83);
+  opacity: 0;
+  transform: translateY(20px);  /* Начальное смещение */
+  animation: modal-appear 0.3s ease-in-out forwards; /* Анимация входа */
+  left: calc(50vw - 15vw);
+  border-radius: 6px;
+  box-shadow: 1px 0px 18px rgba(0, 0, 0, 0.20);
 }
 
 button{
@@ -19,6 +20,7 @@ button{
   padding: 0;
   padding-top: 5px;
   padding-left: 5px;
+  cursor: pointer;
 }
 
 button img{
@@ -56,5 +58,26 @@ button img{
     to {
       opacity: 0;
       transform: translateY(20px);
+    }
+  }
+
+  @media (max-width: 840px) {
+    .modal {
+      width: 50vw;
+      /*  Исправляем смещение по горизонтали  */
+      left: 25vw;
+       /* Центрируем по горизонтали */
+    }
+  }
+
+  @media (max-width: 560px) {
+    .modal {
+      position: fixed; /* Используем fixed для заполнения всего экрана */
+      top: 0;
+      left: 0;
+      width: 100%; /* Занимаем всю ширину */
+      height: 100%; /* Занимаем всю высоту */
+      transform: none; /* Убираем transform для центрирования */
+      border-radius: 0; /* Убираем скругление углов, если необходимо */
     }
   }

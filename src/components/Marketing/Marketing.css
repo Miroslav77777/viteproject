@@ -1,10 +1,18 @@
-.marketing{
+section.marketing{
     padding-bottom: 0;
+    padding-top: 5vw !important;
 }
 
 @media (max-width:840px) {
-    .marketing{
-        padding: 8.33vw 8.33vw;
-        padding-bottom: 0;
+    section.marketing{
+        padding: 8.33vw !important;
+    }
+    .info-marketing h1{
+        font-size: 5vw;
+        font-weight: 400;
+    }
+
+    .annotation p{
+        font-size: 6px;
     }
 }

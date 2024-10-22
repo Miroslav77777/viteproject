@@ -17,7 +17,7 @@ export default function Welcome(){
     };
     return(
         <>
-            <section>
+            <section className="welcome">
                 <div className="info">
                     <div className="club">
                         <h1>ERSAG CLUB</h1>

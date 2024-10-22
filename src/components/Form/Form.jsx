@@ -3,6 +3,7 @@ import "./Form.css"
 import DiscountImage from '../../assets/Discount.webp';
 
 
+
 const ContactForm = () => {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
@@ -27,14 +28,14 @@ const ContactForm = () => {
     try {
       // Замените 'YOUR_BOT_TOKEN' на токен вашего бота
       const response = await fetch(
-        `https://api.telegram.org/bot8120300559:AAF_64S4zFffpbT6c_pn7ZHDdS8_Q4lhvtA/sendMessage`,
+        `https://api.telegram.org/bot${import.meta.env.VITE_BOT_TOKEN}/sendMessage`,
         {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
-            chat_id: "770454790", // Замените на ID чата админа
+            chat_id: import.meta.env.VITE_CHAT_ID, // Замените на ID чата админа
             text: `Новая заявка:\nИмя: ${name}\nТелефон: ${phone}\nНаселенный пункт: ${city}`,
           }),
         }

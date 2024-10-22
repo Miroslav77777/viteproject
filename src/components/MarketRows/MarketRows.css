@@ -1,8 +1,9 @@
-.Row{
+section.Row{
     display: flex;
     flex-direction: column;
     color: black;
     background-color: rgba(212, 120, 222, 0.07);
+    padding-top: 4.5vw !important;
 }
 
 .row-item{
@@ -40,9 +41,9 @@
 }
 
 @media screen and (max-width:767px) {
-    .Row{
-        padding: 8.33vw 8.33vw;
-        gap: 6vw;
+    section.Row{
+        padding: 43px 8.33vw;
+        padding-top: 0 !important;
     }
     .row-item{
         flex-direction: column;
