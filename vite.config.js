@@ -5,8 +5,4 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: "/",
-  build: {
-    outDir: 'dist', // Указываем папку для сборки
-    publicPath: '/' // Устанавливаем публичный путь в корень
-  }
 })
