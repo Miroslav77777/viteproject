@@ -31,13 +31,15 @@ export default function Welcome(){
                         <h1>Хотите стать частью волшебного мира Красоты и Здоровья Эрсаг?</h1>
                         <p>Станьте Архитектором своего Счастья!
                         <br/>Присоединяйтесь к Сообществу Эрсаг и узнайте секреты красоты и здоровья! <br/>А также улучшите своё благополучие вместе с нами!</p>
-                        <button onClick={handleShowModal}>УЗНАТЬ БОЛЬШЕ</button>
+                        <a href="./salon">
+                            <button>УЗНАТЬ БОЛЬШЕ</button>
+                        </a>
                     </div>
                 </div>
                 <div className="inner-section">
                     <div className="image-container">
-                    <div className="frame"></div>
-                    <img src={First} alt="Woman with flowers" />
+                    <a href='./salon' className="frame"></a>
+                    <a href="./salon"><img src={First} alt="Woman with flowers" /></a>    
                     </div>
                 </div>   
             </section>

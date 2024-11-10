@@ -25,13 +25,15 @@ export default function About(){
                         <h1>Эрсаг - турецкая международная компания</h1>
                         <p>Производит абсолютно натуральную, экологическую, гипоаллергенную и профессиональную продукцию: бады, средства личной гигиены, чистящие и моющие средства, натуральную косметику и парфюмерию.
                         Продукция Эрсаг в России официально сертифицирована к применению и продажам.</p>
-                        <button onClick={handleShowModal}>Подробнее</button>
+                        <a href="./aboutcomp">
+                            <button>УЗНАТЬ БОЛЬШЕ</button>
+                        </a>
                     </div>
                 </div>
                 <div className="inner-section">
                     <div className="image-container">
-                    <div className="frame"></div>
-                    <img src={Ersag} alt="Woman with flowers" />
+                    <a href='./aboutcomp' className="frame"></a>
+                    <a href="./aboutcomp"><img src={Ersag} alt="Woman with flowers" /></a> 
                     </div>
                 </div>
             </section>

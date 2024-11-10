@@ -1,8 +1,10 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { loadEnv, defineConfig } from 'vite'
+import { ngrok } from 'vite-plugin-ngrok'
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  base: "/",
+  // Note you should not store your ngrok token in your code/repo. Make sure to move this to 
+  // a more secure place before sharing your project.
+  plugins: [
+    ngrok('2nvudcQQYeV9ogB7NqPAvnqcTU2_G8992q88yvkQv3xp7JcV'),
+  ],
 })

@@ -1,4 +1,5 @@
 import "./MarketRows.css";
+import React from "react";
 
 export default function MarketRows({ hL, hR, pA }) {
   return (
